@@ -45,7 +45,7 @@ General steps are:
 
             var player = new Clappr.Player({
                 parentId: "#player",
-                source: "https://akamai-axtest.akamaized.net/routes/lapd-v1-acceptance/www_c4/Manifest.m3u8",
+                source: "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
                 mute: true,
                 autoPlay: true,
                 playback: {

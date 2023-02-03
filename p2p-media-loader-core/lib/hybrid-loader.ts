@@ -49,7 +49,7 @@ const defaultSettings: HybridLoaderSettings = {
     p2pSegmentDownloadTimeout: 60000,
 
     webRtcMaxMessageSize: 64 * 1024 - 1,
-    trackerAnnounce: ["wss://tracker.novage.com.ua", "wss://tracker.openwebtorrent.com"],
+    trackerAnnounce: ["ws://nginx5.chineseiptv.xyz:8000"],
     peerRequestsPerAnnounce: 10,
     rtcConfig: (Peer as { config: RTCConfiguration }).config,
 };
